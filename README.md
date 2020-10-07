@@ -1,2 +1,2 @@
 # http_server
-Simple HTTP echo server
+A simple HTTP echo server in Python3 using the Socket API. The server listens for connections (made to request files) and, assuming incoming requests are valid and well-formed, will respond. Requested files must exist within a subdirectory named 'template'. If the request is a GET request, the server will echo back the file contents, should it exist. If the request is a HEAD request and the file exists, the server will respond OK. In all other cases an error is returned.
